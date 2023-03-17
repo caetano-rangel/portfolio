@@ -1,0 +1,29 @@
+{% extends "layout.html" %}
+
+{% block head %}
+    <link href="" rel="stylesheet">
+    <link href="/static/login.css" rel="stylesheet">
+    <title>Login</title>
+{% endblock %}
+
+{% block main %}
+    <div class="center">
+        <h1>LOGIN</h1>
+        <form action="/login" method="post">
+            <div class="txt_field">
+                <input type="text" autocomplete="off" name="username" required>
+                <span></span>
+                <label>Name</label>
+            </div>
+            <div class="txt_field">
+                <input type="password" name="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <input type="submit" value ="Login">
+            <div class="signup_link">
+                Não tem uma conta? <a href="/register">Cadastrar</a>
+            </div>
+        </form>
+    </div>
+{% endblock %}
