@@ -1,38 +1,38 @@
-import Work1 from '../../assets/work1.jpg'
+import Work1 from '../../assets/qrcode.jpg'
 import Work2 from '../../assets/work2.jpg'
-import Work3 from '../../assets/work3.jpg'
-import Work4 from '../../assets/work4.jpg'
-import Work5 from '../../assets/work5.jpg'
+import Work3 from '../../assets/token.jpg'
+import Work4 from '../../assets/blockchain.jpg'
+import Work5 from '../../assets/program.jpg'
 
 export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "Web design",
+      title: "QrCode Generator",
       category: "web",
     },
     {
       id: 2,
       image: Work2,
-      title: "App movil",
+      title: "Grabovoi App",
       category: "app",
     },
     {
       id: 3,
       image: Work3,
-      title: "Brand design",
-      category: "design",
+      title: "Token Deploy",
+      category: "blockchain",
     },
     {
       id: 4,
       image: Work4,
-      title: "App movil",
-      category: "app",
+      title: "Metamask Connect",
+      category: "blockchain",
     },
     {
       id: 5,
       image: Work5,
-      title: "Web design",
+      title: "Re/Max Davanti",
       category: "web",
     },
   ];
@@ -48,6 +48,6 @@ export const projectsNav = [
         name: 'app',
     },
     {
-        name: 'design',
+        name: 'blockchain',
     },
 ];
