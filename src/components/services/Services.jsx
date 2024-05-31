@@ -26,7 +26,7 @@ function Services() {
                     <div className="services-modal-content">
                         <i onClick={() => toggleTab(0)} className="uil uil-times services-modal-close"></i>
                         <h3 className="services-modal-title">Product Designer</h3>
-                        <p className="services-modal-description">Service with more than 3 years of experience.Providing 
+                        <p className="services-modal-description">Service with more than 3 years of experience. Providing 
                         quality work to clients and companies.</p>
 
                         <ul className="services-modal-services grid">
@@ -47,12 +47,12 @@ function Services() {
 
                             <li className="services-modal-service">
                                 <i className="uil uil-check-circle services-modal-icon"></i>
-                                <p className="services-modal-info">I position your company brand.</p>
+                                <p className="services-modal-info">I will deploy with domain.</p>
                             </li>
 
                             <li className="services-modal-service">
                                 <i className="uil uil-check-circle services-modal-icon"></i>
-                                <p className="services-modal-info">Design and mockups of products for companies.</p>
+                                <p className="services-modal-info">I will provide 24/7 support.</p>
                             </li>
                         </ul>
                     </div>
