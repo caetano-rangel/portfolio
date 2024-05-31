@@ -1,0 +1,70 @@
+@use 'variables'
+
+.skills-container
+    grid-template-columns: repeat(2, 350px)
+    column-gap: 3rem
+    justify-content: center
+
+.skills-content
+    background-color: variables.$container-color
+    border: 1px solid rgba(0, 0, 0, 0.1)
+    padding: 2rem 4rem
+    border-radius: 1.25rem
+
+.skills-title
+    font-size: variables.$normal-font-size
+    font-weight: variables.$font-medium
+    text-align: center
+    margin-bottom: 1.5rem
+
+.skills-box
+    display: flex
+    justify-content: center
+    column-gap: 2.5rem
+
+.skills-group
+    display: grid
+    align-items: center
+    row-gap: 1rem
+
+.skills-data
+    display: flex
+    column-gap: 0.5rem
+
+.skills .bx-badge-check
+    font-size: 1rem
+    color: variables.$title-color
+
+.skills-name
+    font-size: variables.$normal-font-size
+    font-weight: variables.$font-medium
+    line-height: 18px
+
+.skills-level
+    font-size: variables.$tiny-font-size
+
+
+
+/* For large devices */
+@media screen and (max-width: 992px)
+    .skills-container
+        grid-template-columns: max-content
+        row-gap: 2rem
+
+
+/* For medium devices */
+@media screen and (max-width: 576px)
+    .skills-container
+        grid-template-columns: 1fr
+
+    .skills-content
+        padding: 1.5rem
+
+
+/* For small devices */
+@media screen and (max-width: 350px) 
+    .skills-box
+        column-gap: 1.25rem
+
+    .skills-name
+        font-size: variables.$small-font-size

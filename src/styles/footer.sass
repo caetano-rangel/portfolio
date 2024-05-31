@@ -1,0 +1,66 @@
+@use 'variables'
+
+.footer
+    background-color: variables.$container-color
+    border-top: 1px solid rgba(0, 0, 0, 0.1)
+
+.footer-container
+    padding: 2rem 0 4rem
+
+.footer-title, .footer-link
+    color: variables.$title-color
+
+.footer-title
+    text-align: center
+    margin-bottom: 2rem
+
+.footer-link:hover
+    color: variables.$title-color-dark
+
+.footer-list
+    display: flex
+    justify-content: center
+    column-gap: 1.5rem
+    margin-bottom: 2rem
+
+.footer-social
+    display: flex
+    justify-content: center
+    column-gap: 1.25rem
+
+.footer-social-link
+    background-color: variables.$title-color
+    color: variables.$container-color
+    font-size: 1.125rem
+    padding: 0.4rem
+    border-radius: 0.5rem
+
+.footer-social-link:hover
+    background-color: variables.$title-color-dark
+
+.footer-copy
+    display: block
+    margin-top: 4.5rem
+    color: variables.$title-color
+    text-align: center
+    font-size: variables.$smaller-font-size
+
+
+
+/* For large devices */
+@media screen and (max-width: 992px)
+    .footer-social-link
+        padding: 0.25rem
+        border-radius: 0.25rem
+        font-size: 1rem
+
+
+/* For medium devices */
+@media screen and (max-width: 768px)
+
+
+@media screen and (max-width: 576px)
+
+
+/* For small devices */
+@media screen and (max-width: 350px) 

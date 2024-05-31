@@ -1,0 +1,98 @@
+@use 'variables'
+    
+.qualify-container
+    max-width: 768px
+    margin-left: auto
+    margin-right: auto
+
+.qualify-tabs
+    display: flex
+    justify-content: center
+    margin-bottom: 2rem
+
+.qualify-button
+    font-size: variables.$h3-font-size
+    font-weight: variables.$font-medium
+    color: variables.$title-color
+    margin: 0 1rem
+    cursor: pointer
+
+.qualify-button:hover
+    color: variables.$title-color-dark
+
+.qualify-icon
+    font-size: 1.8rem
+    margin-right: 0.25rem
+
+.qualify-active
+    color: variables.$title-color-dark
+
+.qualify-sections
+    display: grid
+    grid-template-columns: 0.5fr
+    justify-content: center
+
+.qualify-content
+    display: none
+
+.qualify-content-active
+    display: block
+
+.qualify-data
+    display: grid
+    grid-template-columns: 1fr max-content 1fr
+    column-gap: 1.5rem
+
+.qualify-title
+    font-size: variables.$normal-font-size
+    font-weight: variables.$font-medium
+
+.qualify-subtitle
+    display: inline-block
+    font-size: variables.$small-font-size
+    margin-bottom: 1rem
+
+.qualify-calendar
+    font-size: variables.$small-font-size
+
+.qualify-rounder
+    display: inline-block
+    width: 13px
+    height: 13px
+    background-color: variables.$text-color
+    border-radius: 50%
+
+.qualify-line
+    display: block
+    width: 1px
+    height: 100%
+    background-color: variables.$text-color
+    transform: translate(6px, -7px)
+
+
+
+/* For large devices */
+@media screen and (max-width: 992px)
+    .qualify-container
+        margin-left: auto
+        margin-right: auto
+
+
+/* For medium devices */
+@media screen and (max-width: 768px)
+    .qualify-container
+        margin-left: 1.5rem
+        margin-right: 1.5rem
+
+    
+@media screen and (max-width: 576px)
+    .qualify-sections
+        grid-template-columns: initial
+
+    .qualify-button
+        margin: 0 0.75rem
+
+/* For small devices */
+@media screen and (max-width: 350px)
+    .qualify-data
+        gap: 0.5rem

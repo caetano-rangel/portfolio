@@ -1,0 +1,41 @@
+@use 'variables'
+    
+.testimonial-container
+    width: 750px
+
+.testimonial-card
+    background-color: variables.$container-color
+    border: 1px solid rgba(0, 0, 0, 0.1)
+    padding: 1.5rem 2rem
+    border-radius: 1.5rem
+    margin-bottom: 3rem
+
+.testimonial-img
+    width: 60px
+    border-radius: 3rem
+    margin-bottom: 1rem
+
+.testimonial-name
+    font-size: variables.$normal-font-size
+    font-weight: variables.$font-medium
+    margin-bottom: 0.25rem
+
+.testimonial-description
+    font-size: variables.$small-font-size
+
+/* Swipper Class */
+.swiper-pagination-bullet
+    background-color: variables.$text-color !important
+
+.swiper-pagination-bullet-active
+    background-color: variables.$title-color !important
+
+
+
+/* For large devices */
+@media screen and (max-width: 992px)
+    .testimonial-container
+        width: initial
+
+    .testimonial-card
+        padding: 1.25rem 1.5rem
