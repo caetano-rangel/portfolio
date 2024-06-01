@@ -10,6 +10,7 @@ export const projectsData = [
       image: Work1,
       title: "QrCode Generator",
       category: "web",
+      link: "https://caetano-rangel.github.io/qrcode/",
     },
     {
       id: 2,
@@ -22,18 +23,21 @@ export const projectsData = [
       image: Work3,
       title: "Token Deploy",
       category: "blockchain",
+      link: "https://www.linkedin.com/feed/update/urn:li:activity:7194051991323426816/",
     },
     {
       id: 4,
       image: Work4,
       title: "Metamask Connect",
       category: "blockchain",
+      link: "https://github.com/caetano-rangel/metamask-connect",
     },
     {
       id: 5,
       image: Work5,
       title: "Re/Max Davanti",
       category: "web",
+      link: "https://remaxdavanti.com.br/",
     },
   ];
   

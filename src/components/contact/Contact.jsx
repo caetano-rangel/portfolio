@@ -12,7 +12,7 @@ function Contact() {
 
                 <div className="contact-info">
                     <div className="contact-card">
-                        <i className="bx bx-mail-send contact-card-icon"></i>
+                        <i className="bx bx-mail-send contact-card-icon gmail"></i>
 
                         <h3 className="contact-card-title">Email</h3>
                         <span className="contact-card-data">caetano.rangel22@gmail.com</span>
@@ -23,7 +23,7 @@ function Contact() {
                     </div>
 
                     <div className="contact-card">
-                        <i className="bx bxl-whatsapp contact-card-icon"></i>
+                        <i className="bx bxl-whatsapp contact-card-icon whats"></i>
 
                         <h3 className="contact-card-title">WhatsApp</h3>
                         <span className="contact-card-data">55 11 97671-2615</span>
@@ -34,7 +34,7 @@ function Contact() {
                     </div>
 
                     <div className="contact-card">
-                        <i className="bx bxl-linkedin contact-card-icon"></i>
+                        <i className="bx bxl-linkedin contact-card-icon linkedin"></i>
 
                         <h3 className="contact-card-title">Linkedin</h3>
                         <span className="contact-card-data">@caetano-rangel</span>
