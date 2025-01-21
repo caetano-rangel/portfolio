@@ -6,7 +6,7 @@ export const Data = [
     {
       id: 1,
       image: Image1,
-      title: "Jhon Doe",
+      title: "Jhon Postman",
       description:
         "A really good job, all aspects of the project were followed step by step and with good results.",
     },
