@@ -117,9 +117,9 @@ function Qualify() {
 
                         <div>
                             <h3 className="qualify-title">Web Development</h3>
-                            <span className="qualify-subtitle">RE/MAX Davanti</span>
+                            <span className="qualify-subtitle">Babytimee.com</span>
                             <div className="qualify-calendar">
-                                <i className="uil uil-calendar-alt"></i>2023 - Present
+                                <i className="uil uil-calendar-alt"></i>2024 - Present
                             </div>
                         </div>
                     </div>
@@ -129,13 +129,30 @@ function Qualify() {
                             <h3 className="qualify-title">Smart Contracts Development</h3>
                             <span className="qualify-subtitle">Voluntary</span>
                             <div className="qualify-calendar">
-                                <i className="uil uil-calendar-alt"></i>2024 - Present
+                                <i className="uil uil-calendar-alt"></i>2024 - 2025
                             </div>
                         </div>
 
                         <div>
                             <span className="qualify-rounder"></span>
                             <span className="qualify-line"></span>
+                        </div>
+                    </div>
+
+                    <div className="qualify-data">
+                        <div></div>
+
+                        <div>
+                            <span className="qualify-rounder"></span>
+                            <span className="qualify-line"></span>
+                        </div>
+
+                        <div>
+                            <h3 className="qualify-title">MicroSaaS Development</h3>
+                            <span className="qualify-subtitle">Clicktripp.com</span>
+                            <div className="qualify-calendar">
+                                <i className="uil uil-calendar-alt"></i>2024 - Present
+                            </div>
                         </div>
                     </div>
                 </div>

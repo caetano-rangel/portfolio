@@ -55,7 +55,7 @@ function Data() {
         </svg>
         </h1>
         <h3 className="home-subtitle">FullStack Developer</h3>
-        <p className="home-description">I'm a FullStack developer focusing on React and React Native. I am currently studying Blockchain and Web3 technologies.</p>
+        <p className="home-description">I'm a FullStack developer focusing on NextJs and React Native. I am currently studying Blockchain and Web3 technologies.</p>
         <a href="#contact" className="button button--flex">
             Say Hello
             <svg

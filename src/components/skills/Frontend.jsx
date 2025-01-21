@@ -11,7 +11,7 @@ function Frontend() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills-name">HTML</h3>
+                    <h3 className="skills-name">NextJs</h3>
                     <span className="skills-level">Advanced</span>
                 </div>
                 </div>
@@ -20,7 +20,7 @@ function Frontend() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills-name">Css - Sass</h3>
+                    <h3 className="skills-name">TailwindCss</h3>
                     <span className="skills-level">Advanced</span>
                 </div>
                 </div>

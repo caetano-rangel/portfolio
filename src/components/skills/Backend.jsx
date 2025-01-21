@@ -29,8 +29,8 @@ function Backend() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills-name">MySql</h3>
-                    <span className="skills-level">Basic</span>
+                    <h3 className="skills-name">Supabase</h3>
+                    <span className="skills-level">Intermediate</span>
                 </div>
                 </div>
             </div>
@@ -49,8 +49,8 @@ function Backend() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills-name">Rust</h3>
-                    <span className="skills-level">Basic</span>
+                    <h3 className="skills-name">API</h3>
+                    <span className="skills-level">Intermediate</span>
                 </div>
                 </div>
 
@@ -58,7 +58,7 @@ function Backend() {
                 <i className="bx bx-badge-check"></i>
 
                 <div>
-                    <h3 className="skills-name">Blockchain</h3>
+                    <h3 className="skills-name">Webhook</h3>
                     <span className="skills-level">Basic</span>
                 </div>
                 </div>

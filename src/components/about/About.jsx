@@ -1,6 +1,6 @@
 import '../../styles/about.sass'
 import AboutImg from '../../assets/caetano.jpeg';
-import CV from '../../assets/Caetano-CV.pdf';
+import CV from '../../assets/caetanoCv.pdf';
 import Info from './Info';
 
 function About() {
