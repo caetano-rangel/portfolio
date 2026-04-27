@@ -4,7 +4,8 @@ import Work3 from '../../assets/token.jpg'
 import Work4 from '../../assets/blockchain.jpg'
 import Work5 from '../../assets/program.jpg'
 import Work6 from '../../assets/baby.png'
-import Work7 from '../../assets/click.jpeg'
+import Work7 from '../../assets/terceiron.png'
+import Work8 from '../../assets/fem.png'
 
 export const projectsData = [
     {
@@ -51,8 +52,16 @@ export const projectsData = [
     {
       id: 7,
       image: Work7,
-      title: "Click Tripp - MicroSaaS",
+      title: "TerceirON - MicroSaaS",
       category: "web",
+      link: "https://terceiron.com",
+    },
+    {
+      id: 8,
+      image: Work8,
+      title: "Fem Imports - MicroSaaS",
+      category: "web",
+      link: "https://fem-three.vercel.app/",
     },
   ];
   
