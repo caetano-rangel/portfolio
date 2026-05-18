@@ -55,7 +55,7 @@ function Data() {
         </svg>
         </h1>
         <h3 className="home-subtitle">Cybersecurity Analyst & FullStack Dev</h3>
-        <p className="home-description">Desenvolvedor Full Stack especializado em Next.js e React Native, direcionando minha carreira para a Cibersegurança.</p>
+        <p className="home-description">Desenvolvedor Full Stack especializado em Next.js e React Native, direcionando minha carreira para a Cibersegurança..</p>
         <a href="#contact" className="button button--flex">
             Say Hello
             <svg
