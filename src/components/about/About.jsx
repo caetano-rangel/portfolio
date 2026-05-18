@@ -1,6 +1,6 @@
 import '../../styles/about.sass'
 import AboutImg from '../../assets/caetano.jpeg';
-import CV from '../../assets/caetanoCv.pdf';
+import CV from '../../assets/CV-CaetanoRangel.pdf';
 import Info from './Info';
 
 function About() {
@@ -15,8 +15,7 @@ function About() {
             <div className="about-data">
                 <Info />
 
-                <p className="about-description">FullStack developer, I created web pages and mobile applications, 
-                based on UI/UX and currently focusing on blockchain programming (Solidity).</p>
+                <p className="about-description">Desenvolvedor FullStack, criei +4 MicroSaaS atualmente publicados e migrando para Cybersegurança com foco em Pentest.</p>
 
                 <a download="" href={CV} className="button button--flex">Download CV
                 <svg

@@ -89,6 +89,20 @@ function Qualify() {
                             </div>
                         </div>
                     </div>
+                    <div className="qualify-data">
+                        <div>
+                            <h3 className="qualify-title">CyberSecurity Jr</h3>
+                            <span className="qualify-subtitle">Cisco - HTB</span>
+                            <div className="qualify-calendar">
+                                <i className="uil uil-calendar-alt"></i>2026 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className="qualify-rounder"></span>
+                            <span className="qualify-line"></span>
+                        </div>
+                    </div>
                 </div>
 
                 <div className={toggleState === 2 ? "qualify-content qualify-content-active" : "qualify-content"}>
@@ -153,6 +167,20 @@ function Qualify() {
                             <div className="qualify-calendar">
                                 <i className="uil uil-calendar-alt"></i>2024 - Present
                             </div>
+                        </div>
+                    </div>
+                    <div className="qualify-data">
+                        <div>
+                            <h3 className="qualify-title">Pentester - CTFs</h3>
+                            <span className="qualify-subtitle">HackTheBox</span>
+                            <div className="qualify-calendar">
+                                <i className="uil uil-calendar-alt"></i>2026 - Present
+                            </div>
+                        </div>
+
+                        <div>
+                            <span className="qualify-rounder"></span>
+                            <span className="qualify-line"></span>
                         </div>
                     </div>
                 </div>

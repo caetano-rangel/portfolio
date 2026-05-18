@@ -21,7 +21,6 @@ function App() {
         <Services />
         <Qualify />
         <Work />
-        <Testimonials />
         <Contact />
       </main>
       <Footer />
